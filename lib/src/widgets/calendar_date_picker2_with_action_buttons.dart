@@ -97,8 +97,9 @@ class _CalendarDatePicker2WithActionButtonsState
         ),
         SizedBox(height: widget.config.gapBetweenCalendarAndButtons ?? 10),
         Container(
-          padding: const EdgeInsets.all(12),
-          decoration: const BoxDecoration(color: Colors.white),
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              color: Colors.white, borderRadius: BorderRadius.circular(12)),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
